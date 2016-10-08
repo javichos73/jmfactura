@@ -1,0 +1,29 @@
+__pycache__/
+
+#extensions to ignore
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+#directories to ignore
+.idea/
+
+*static/node_modules/
+*node_modules
+
+# archivos generados a partir de typescript
+*.component.js
+*.service.js
+*.routes.js
+*.routing.js
+*.module.js
+*.map
+
+# TypeScript
+static/typings/
+
+#migraciones
+*migrations/
+
